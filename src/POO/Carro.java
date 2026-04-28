@@ -9,6 +9,21 @@ public class Carro {
     private int km;
     private double preco;
 
+    // Construtor sem argumentos
+    public Carro() {
+
+    }
+
+    // Construtor com argumentos
+    public Carro(String marca, String modelo, int ano, String cor, int km, double preco) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+        this.cor = cor;
+        this.km = km;
+        this.preco = preco;
+    }
+
     // Getters e Setters
     public String getMarca() {
         return marca;
